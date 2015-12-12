@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "bc7bbb4ea24cf8f25022bf808a097376",
+    "content-hash": "0f52a2351f5ec217aae22a314c1c150d",
     "packages": [
         {
             "name": "2amigos/yii2-selectize-widget",
@@ -206,7 +207,8 @@
                     "fancybox.jquery.json",
                     "demo"
                 ]
-            }
+            },
+            "time": "2015-10-06 14:47:06"
         },
         {
             "name": "bower-asset/jquery",
@@ -281,7 +283,8 @@
                     "Gruntfile.js",
                     "test"
                 ]
-            }
+            },
+            "time": "2014-09-06 14:29:29"
         },
         {
             "name": "bower-asset/jquery.inputmask",
@@ -378,7 +381,8 @@
                 "input",
                 "switch",
                 "switcher"
-            ]
+            ],
+            "time": "2014-11-04 05:50:52"
         },
         {
             "name": "bower-asset/microplugin",
@@ -453,7 +457,8 @@
                     "package.js",
                     "package.json"
                 ]
-            }
+            },
+            "time": "2015-07-28 04:39:50"
         },
         {
             "name": "bower-asset/punycode",
@@ -622,7 +627,8 @@
             },
             "license": [
                 "MIT"
-            ]
+            ],
+            "time": "2015-12-05 12:06:24"
         },
         {
             "name": "cebe/markdown",
@@ -819,17 +825,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boehsermoe/easyii.git",
-                "reference": "b189be58cdb9c2416943321a1d301389524ddddd"
+                "reference": "5eb26b78498c56b4adf4e084cda434d01a8b41ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boehsermoe/easyii/zipball/b189be58cdb9c2416943321a1d301389524ddddd",
-                "reference": "b189be58cdb9c2416943321a1d301389524ddddd",
+                "url": "https://api.github.com/repos/boehsermoe/easyii/zipball/5eb26b78498c56b4adf4e084cda434d01a8b41ce",
+                "reference": "5eb26b78498c56b4adf4e084cda434d01a8b41ce",
                 "shasum": ""
             },
             "require": {
                 "2amigos/yii2-selectize-widget": "~1.0",
-                "bower-asset/eonasdan-bootstrap-datetimepicker": "4.7.*",
+                "bower-asset/eonasdan-bootstrap-datetimepicker": "4.7.14",
                 "bower-asset/fancybox": "*",
                 "bower-asset/jquery.switcher": "*",
                 "creocoder/yii2-nested-sets": "0.9.*",
@@ -873,7 +879,7 @@
                 "source": "https://github.com/noumo/easyii.git",
                 "issues": "https://github.com/noumo/easyii/issues"
             },
-            "time": "2015-12-12 07:46:21"
+            "time": "2015-12-12 08:24:44"
         },
         {
             "name": "stojg/crop",
@@ -1279,39 +1285,6 @@
         }
     ],
     "packages-dev": [
-        {
-            "name": "bower-asset/moment-timezone",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/moment/moment-timezone.git",
-                "reference": "d8ecdd0d5048a666b9e2940e2e52aceb23619a79"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment-timezone/zipball/d8ecdd0d5048a666b9e2940e2e52aceb23619a79",
-                "reference": "d8ecdd0d5048a666b9e2940e2e52aceb23619a79",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/moment": ">=2.6.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "builds/moment-timezone-with-data-2010-2020.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "tests",
-                    "tasks",
-                    "data/*/20*.json",
-                    "contributing.md",
-                    "Gruntfile.js",
-                    "index.js",
-                    "package.json"
-                ]
-            },
-            "description": "Parse and display moments in any timezone."
-        },
         {
             "name": "bower-asset/typeahead.js",
             "version": "v0.11.1",
