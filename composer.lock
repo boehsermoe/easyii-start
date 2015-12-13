@@ -825,12 +825,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boehsermoe/easyii.git",
-                "reference": "5eb26b78498c56b4adf4e084cda434d01a8b41ce"
+                "reference": "9b76a7093e746995dca8c6b472a9f71b2ba9e87a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boehsermoe/easyii/zipball/5eb26b78498c56b4adf4e084cda434d01a8b41ce",
-                "reference": "5eb26b78498c56b4adf4e084cda434d01a8b41ce",
+                "url": "https://api.github.com/repos/boehsermoe/easyii/zipball/9b76a7093e746995dca8c6b472a9f71b2ba9e87a",
+                "reference": "9b76a7093e746995dca8c6b472a9f71b2ba9e87a",
                 "shasum": ""
             },
             "require": {
@@ -879,7 +879,7 @@
                 "source": "https://github.com/noumo/easyii.git",
                 "issues": "https://github.com/noumo/easyii/issues"
             },
-            "time": "2015-12-12 08:24:44"
+            "time": "2015-12-12 19:48:03"
         },
         {
             "name": "stojg/crop",

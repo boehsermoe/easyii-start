@@ -50,6 +50,14 @@ $config = [
                 ],
             ],
         ],
+	    'urlManager' => [
+	        'rules' => [
+                //'<controller:\w+>/<id:\d+>' => '<controller>/view',
+                //'<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                //'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+              //  '<id:[\d\w]+>' => 'site/content',
+	        ]
+        ],
         'db' => require(__DIR__ . '/db.php'),
     ],
     'params' => $params,
@@ -62,8 +70,10 @@ if (YII_ENV_DEV) {
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = 'yii\gii\Module';
-    
+
     $config['components']['db']['enableSchemaCache'] = false;
 }
 
-return array_merge_recursive($config, require(dirname(__FILE__) . '/../../vendor/noumo/easyii/config/easyii.php'));
+$config = array_merge_recursive($config, require(dirname(__FILE__) . '/../../vendor/noumo/easyii/config/easyii.php'));
+
+return $config;
