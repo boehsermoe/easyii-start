@@ -18,6 +18,11 @@ $asset = \app\assets\AppAsset::register($this);
     </head>
     <body>
     <?php $this->beginBody() ?>
+
+    <header>
+        <?php \yii\easyii\modules\content\api\Content::nav() ?>
+    </header>
+
     <?= $content ?>
     <?php $this->endBody() ?>
     </body>
