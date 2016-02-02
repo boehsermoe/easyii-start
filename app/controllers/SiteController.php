@@ -2,16 +2,15 @@
 
 namespace app\controllers;
 
-use yii\easyii\modules\content\behaviors\ContentController;
 use yii\web\Controller;
 
 class SiteController extends Controller
 {
-    use ContentController;
+    use \yii\easyii\modules\content\api\controllers\ContentController;
 
     public function actions()
     {
-        return [
+	    return [
             'error' => [
                 'class' => 'yii\web\ErrorAction',
             ],
@@ -21,14 +20,5 @@ class SiteController extends Controller
     public function actionIndex()
     {
         return $this->render('index');
-    }
-
-    public function actionHome()
-    {
-        if ($this->content == null) {
-            throw new \yii\web\NotFoundHttpException(\Yii::t('easyii', 'Not found'));
-        }
-
-        return $this->renderContentView();
     }
 }

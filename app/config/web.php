@@ -15,7 +15,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'U76IjGsUsTqA8wHund3jdZ5DTCt3W3wn',
+            'cookieValidationKey' => '',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -27,6 +27,7 @@ $config = [
             'class' => 'yii\swiftmailer\Mailer',
         ],
         'assetManager' => [
+            'forceCopy' => YII_DEBUG,
             // uncomment the following line if you want to auto update your assets (unix hosting only)
             //'linkAssets' => true,
             'bundles' => [
@@ -50,14 +51,16 @@ $config = [
                 ],
             ],
         ],
-	    'urlManager' => [
-	        'rules' => [
+        'urlManager' => [
+            'rules' => [
                 //'<controller:\w+>/<id:\d+>' => '<controller>/view',
                 //'<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 //'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+                'admin' => 'admin',
                 '<id:[\d\w]+>' => 'site/content',
-	        ]
+            ]
         ],
+
         'db' => require(__DIR__ . '/db.php'),
     ],
     'params' => $params,
@@ -75,5 +78,4 @@ if (YII_ENV_DEV) {
 }
 
 $config = array_merge_recursive($config, require(dirname(__FILE__) . '/../../vendor/noumo/easyii/config/easyii.php'));
-
 return $config;
