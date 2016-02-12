@@ -8,6 +8,10 @@ use yii\web\Controller;
 class SiteController extends Controller
 {
     use ContentController;
+    
+    public $defaultAction = 'content';
+
+    public $slug = 'home';
 
     public function actions()
     {
