@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-use yii\easyii\modules\content\behaviors\ContentController;
+use yii\easyii\modules\content\api\controllers\ContentController;
 use yii\web\Controller;
 
 class SiteController extends Controller

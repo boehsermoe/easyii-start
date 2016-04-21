@@ -5,6 +5,8 @@ $params = require(__DIR__ . '/params.php');
 $basePath =  dirname(__DIR__);
 $webroot = dirname($basePath);
 
+Yii::setAlias('@uploads', 'uploads');
+
 $config = [
     'id' => 'app',
     'basePath' => $basePath,
