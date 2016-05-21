@@ -26,14 +26,4 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
-
-
-    public function actionHome()
-    {
-        if ($this->content == null) {
-            throw new \yii\web\NotFoundHttpException(\Yii::t('easyii', 'Not found'));
-        }
-
-        return $this->renderContentView();
-    }
 }
