@@ -21,6 +21,6 @@ vendor/             contains dependent 3rd-party packages
 
 #### You can find full information in links bellow ####
 * [Homepage](http://easyiicms.com)
-* [Get started](/GETSTARTED.md)
+* [Get started](docs/GETSTARTED.md)
 * [Demo](http://demo.easyiicms.com/)
 
