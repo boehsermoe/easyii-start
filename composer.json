@@ -14,7 +14,11 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
+<<<<<<< HEAD
         "noumo/easyii": "dev-dev@dev"
+=======
+        "noumo/easyii": "dev-test"
+>>>>>>> f85421f4638c5bfa45c2176e263194582dce9707
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
