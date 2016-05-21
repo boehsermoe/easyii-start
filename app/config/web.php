@@ -5,6 +5,8 @@ $params = require(__DIR__ . '/params.php');
 $basePath =  dirname(__DIR__);
 $webroot = dirname($basePath);
 
+Yii::setAlias('@uploads', 'uploads');
+
 $config = [
     'id' => 'app',
     'basePath' => $basePath,
@@ -78,4 +80,5 @@ if (YII_ENV_DEV) {
 }
 
 $config = array_merge_recursive($config, require(dirname(__FILE__) . '/../../vendor/noumo/easyii/config/easyii.php'));
+
 return $config;
