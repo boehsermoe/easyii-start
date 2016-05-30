@@ -5,8 +5,6 @@ $params = require(__DIR__ . '/params.php');
 $basePath =  dirname(__DIR__);
 $webroot = dirname($basePath);
 
-Yii::setAlias('@uploads', 'uploads');
-
 $config = [
     'id' => 'app',
     'basePath' => $basePath,
@@ -14,6 +12,11 @@ $config = [
     'language' => 'en-US',
     'runtimePath' => $webroot . '/runtime',
     'vendorPath' => $webroot . '/vendor',
+    'aliases' => [
+        'views' => $basePath . '/views',
+        'uploads' => 'uploads',
+    ],
+
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation

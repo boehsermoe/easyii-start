@@ -450,8 +450,8 @@
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.0",
-                "bower-asset/microplugin": "dev-0.0.x|0.0.x",
-                "bower-asset/sifter": "dev-0.4.x|0.4.x"
+                "bower-asset/microplugin": "dev-0.0.x,|0.0.x",
+                "bower-asset/sifter": "dev-0.4.x,|0.4.x"
             },
             "require-dev": {
                 "bower-asset/bootstrap-2": "2",
@@ -766,12 +766,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boehsermoe/easyii.git",
-                "reference": "df1c0474696ba16c4b6d81942f5ccea5f78f9347"
+                "reference": "b28e2814a40a45bb88f2e649d7308b071c71472c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boehsermoe/easyii/zipball/df1c0474696ba16c4b6d81942f5ccea5f78f9347",
-                "reference": "96623e9fecbb15da1dd1265355890673c86f4a4f",
+                "url": "https://api.github.com/repos/boehsermoe/easyii/zipball/b28e2814a40a45bb88f2e649d7308b071c71472c",
+                "reference": "6bd677a1fa51d155e27854a48c70fd9133b7fd86",
                 "shasum": ""
             },
             "require": {
@@ -816,7 +816,7 @@
             "keywords": [
                 "easyii"
             ],
-            "time": "2016-04-19 15:37:37"
+            "time": "2016-04-26 23:17:03"
         },
         {
             "name": "stojg/crop",
