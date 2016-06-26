@@ -11,7 +11,7 @@ cd easyii-start
 Make your own git repository
 
 ```
-git checkout master
+git checkout dev
 rm -rf .git
 git init
 
